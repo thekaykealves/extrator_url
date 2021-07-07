@@ -52,7 +52,6 @@ class Extrator_url:
 
 url = 'bytebank.com/cambio?moedaDestino=dolar&quantidade=100&moedaOrigem=real'
 extrator_url = Extrator_url(url)
-extrator_url_2 = Extrator_url(url)
 
 print(f'Tamanho da URL: ', len(extrator_url))
 print(extrator_url)

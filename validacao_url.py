@@ -24,4 +24,4 @@ match = padrao_url.match(url)
 if not match:
     raise ValueError('A URL não é válida')
 
-print('A URL é valida')
+print('A URL é valida!')
